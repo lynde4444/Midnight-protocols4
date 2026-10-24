@@ -1,0 +1,14 @@
+# Android APK Triage Platform
+# Note: Core engine & apk_triage_console.py use Python Standard Library only (0 dependencies).
+# The requirements below are for the Streamlit UI and optional FastAPI backend.
+
+streamlit>=1.30.0
+pandas>=1.5.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+python-multipart>=0.0.9
+httpx>=0.24.0
+
+# Development & Testing
+pytest>=7.0.0
+vermin>=1.5.0
